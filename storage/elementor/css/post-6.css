@@ -1,0 +1,108 @@
+.elementor-kit-6 {
+    --e-global-color-primary: #A30300;
+    --e-global-color-secondary: #FFFFFF;
+    --e-global-color-text: #D7152A;
+    --e-global-color-accent: #000000;
+    --e-global-color-a899e82: #ECEBFF;
+    --e-global-typography-primary-font-family: "Chewy";
+    --e-global-typography-primary-font-size: 1.25rem;
+    --e-global-typography-primary-font-weight: 400;
+    --e-global-typography-primary-line-height: 2.3rem;
+    --e-global-typography-secondary-font-family: "Chewy";
+    --e-global-typography-secondary-font-size: 1.25rem;
+    --e-global-typography-text-font-family: "Chewy";
+    --e-global-typography-text-font-size: 4.5rem;
+    --e-global-typography-text-line-height: 5.9rem;
+    --e-global-typography-accent-font-family: "Chewy";
+    --e-global-typography-accent-font-size: 9rem;
+    --e-global-typography-accent-font-weight: 500;
+    --e-global-typography-b3d5df0-font-size: 1.25rem;
+    --e-global-typography-b3d5df0-font-weight: 400;
+    --e-global-typography-b3d5df0-line-height: 2.2rem;
+    --e-global-typography-a619269-font-size: 2.0625rem;
+    --e-global-typography-a619269-font-weight: 500;
+    --e-global-typography-a619269-line-height: 2.6rem;
+    --e-global-typography-f0ccc96-font-size: 3.6875rem;
+    --e-global-typography-f0ccc96-font-weight: 400;
+    --e-global-typography-683d425-font-size: 1.5rem;
+    --e-global-typography-683d425-font-weight: 400;
+    --e-global-typography-683d425-line-height: 2.2rem;
+    --e-global-typography-cac1b9f-font-size: 5rem;
+    --e-global-typography-cac1b9f-font-weight: 500;
+    --e-global-typography-cac1b9f-line-height: 7.7rem;
+    --e-global-typography-0359847-font-size: 3.25rem;
+    --e-global-typography-0359847-font-weight: 600;
+    --e-global-typography-0359847-line-height: 5.5rem;
+    --e-global-typography-46f2cce-font-size: 2rem;
+    --e-global-typography-46f2cce-font-weight: 600;
+    --e-global-typography-46f2cce-line-height: 1.4em;
+    --e-global-typography-f0e0a64-font-size: 1.5rem;
+    --e-global-typography-f0e0a64-font-weight: 500;
+    --e-global-typography-0006af2-font-size: 3.25rem;
+    --e-global-typography-0006af2-font-weight: 600;
+    --e-global-typography-110834b-font-size: 2.25rem;
+    --e-global-typography-110834b-font-weight: 700;
+    --e-global-typography-a0ee814-font-size: 1.5rem;
+    --e-global-typography-a0ee814-font-weight: 400;
+    background-color: var( --e-global-color-primary);
+}
+
+.elementor-section.elementor-section-boxed>.elementor-container {
+    max-width: 1140px;
+}
+
+.e-con {
+    --container-max-width: 1140px;
+}
+
+.elementor-widget:not(:last-child) {
+    margin-block-end: 20px;
+}
+
+.elementor-element {
+    --widgets-spacing: 20px 20px;
+}
+
+{}
+
+h1.entry-title {
+    display: var(--page-title-display);
+}
+
+.elementor-kit-6 e-page-transition {
+    background-color: #FFBC7D;
+}
+
+.site-header {
+    padding-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
+@media(max-width:1024px) {
+    .elementor-kit-6 {
+        --e-global-typography-accent-font-size: 6em;
+        --e-global-typography-cac1b9f-font-size: 3rem;
+    }
+    .elementor-section.elementor-section-boxed>.elementor-container {
+        max-width: 1024px;
+    }
+    .e-con {
+        --container-max-width: 1024px;
+    }
+}
+
+@media(max-width:767px) {
+    .elementor-kit-6 {
+        --e-global-typography-text-font-size: 3em;
+        --e-global-typography-accent-font-size: 4em;
+        --e-global-typography-f0ccc96-font-size: 39px;
+        --e-global-typography-cac1b9f-font-size: 3em;
+        --e-global-typography-0359847-font-size: 3em;
+    }
+    .elementor-section.elementor-section-boxed>.elementor-container {
+        max-width: 767px;
+    }
+    .e-con {
+        --container-max-width: 767px;
+    }
+}
